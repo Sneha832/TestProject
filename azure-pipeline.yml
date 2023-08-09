@@ -1,5 +1,5 @@
 trigger:
-- task: Npm@1
+  - task: Npm@1
   inputs:
     command: 'install'
 - master  
