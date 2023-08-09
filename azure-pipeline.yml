@@ -2,7 +2,7 @@ trigger:
 - task: Npm@1
   inputs:
     command: 'install'
- - master  
+- master  
 pool:
    vmImage: 'ubuntu-latest'
 steps: 
